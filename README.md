@@ -1,10 +1,10 @@
 # Big Data Project
 
 ## Overview
-This repository contains the code and documentation for a Big Data project focused on analyzing and processing large datasets. The project aims to showcase various techniques and tools used in Big Data analytics and processing.
+This repository contains the code and documentation for a Big Data project focused on predicting the operational condition of waterpoints. Leveraging Spark and Hadoop clusters, the project aims to utilize large-scale data processing capabilities to analyze waterpoint data efficiently. Data management involves PySpark and SQL for warehousing, enabling scalable data manipulation and analysis. Various categorical variable classifiers, including logistic regression, decision trees, and random forest, are applied to identify the optimal model for the dataset.
 
 ## Project Structure
-- **data/**: This directory contains sample datasets used in the project.
+- **data/**: This directory contains datasets used in the project.
 - **code/**: Contains the source code for data processing, analysis, and visualization.
 - **documentation/**: Contains documentation related to the project, including guidelines, reports, and technical specifications.
 - **results/**: Contains the output or results generated from data processing and analysis.
@@ -20,6 +20,10 @@ To run the project locally, follow these steps:
 2. Navigate to the `code/` directory.
 3. Execute the main script or run specific modules according to your requirements. Detailed instructions can be found in the `code/README.md` file.
 
+## Data
+The data used in this project includes:
+- [Waterpoint Data](data/waterpoints.csv): Description of waterpoint data.
+
 ## Contributing
 Contributions to this project are welcome! If you would like to contribute, please follow these steps:
 1. Fork the repository.
@@ -28,6 +32,8 @@ Contributions to this project are welcome! If you would like to contribute, plea
 4. Push to the branch: `git push origin feature/your-feature`.
 5. Submit a pull request.
 
+## License
+This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 For any questions or inquiries regarding the project, feel free to contact the project owner:
